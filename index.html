@@ -4,31 +4,49 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110185855-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-110185855-1');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-110185855-1');
   </script>
   <meta charset="utf-8" />
-
+  <title>yamashou.me</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="./img/pple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./img/pple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./img/pple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./img/pple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./img/pple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./img/pple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./img/pple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./img/pple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/pple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./img/ndroid-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+  <link rel="manifest" href="./img/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./img/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <body class="container">
-      <div>
-        <img class="mitu" src="./103267.png"  />
-        <h1 class="title">
-          yamashou.me
-        </h1>
-        <h2 class="subtitle">
-          Shota Yamamoto
-        </h2>
-        <div class="links">
-          <a href="https://github.com/yamashou" target="_blank" class="button--grey">GitHub</a>
-          <a href="http://shota-df-412.hatenablog.com/" target="_blank" class="button--blog">Blog</a>
-          <a href="https://www.facebook.com/shou.yama.39" target="_blank" class="button--facebook">Facebook</a>
-          <a href="https://twitter.com/Yamashou0314" target="_blank" class="button--twitter">twitter</a>
-          <a href="https://speakerdeck.com/yamashou/" target="_blank" class="button--speakerdeck">Speaker Deck</a>
-        </div>
-      </div>
+  <div>
+    <img class="mitu" src="./img/mitu.png"  />
+    <h1 class="title">
+      yamashou.me
+    </h1>
+    <h2 class="subtitle">
+      Shota Yamamoto
+    </h2>
+    <div class="links">
+      <a href="https://github.com/yamashou" target="_blank" class="button--grey">GitHub</a>
+      <a href="http://shota-df-412.hatenablog.com/" target="_blank" class="button--blog">Blog</a>
+      <a href="https://www.facebook.com/shou.yama.39" target="_blank" class="button--facebook">Facebook</a>
+      <a href="https://twitter.com/Yamashou0314" target="_blank" class="button--twitter">twitter</a>
+      <a href="https://speakerdeck.com/yamashou/" target="_blank" class="button--speakerdeck">Speaker Deck</a>
+      <a href="https://www.youtube.com/watch?v=MN_8WI6_oN8" target="_blank" class="button--dance">Dance</a>
+    </div>
+  </div>
 </body>
 </html>
 
@@ -108,6 +126,22 @@ html {
 }
 
 
+.button--dance {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #F71919;
+  color: #F71919;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+.button--dance:hover {
+  color: #fff;
+  background-color: #F71919;
+}
+
+
+
 
 .button--grey {
   display: inline-block;
@@ -124,6 +158,7 @@ html {
   background-color: #35495e;
 }
 .mitu{
+  margin-bottom: 7px;
   animation: rotation 1.5s ease-out;
 }
 @keyframes rotation {
